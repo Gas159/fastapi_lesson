@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e0e5772-58f2-4d57-9443-6ee42150fca9" name="Changes" comment="add poetry.lock">
+    <list default="true" id="4e0e5772-58f2-4d57-9443-6ee42150fca9" name="Changes" comment="add poetry.lock&#10;add poetry.toml&#10;add pyproject.toml&#10;add README.md&#10;add setup.cfg&#10;add setup.py">
       <change afterPath="$PROJECT_DIR$/fast_app/html_template/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/fast_app/html_template/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/fast_app/main1.py" afterDir="false" />
@@ -113,11 +113,20 @@
       <option name="project" value="LOCAL" />
       <updated>1721115076754</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add poetry.lock&#10;add poetry.toml&#10;add pyproject.toml&#10;add README.md&#10;add setup.cfg&#10;add setup.py">
+      <option name="closed" value="true" />
+      <created>1721118580566</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721118580566</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add poetry.lock" />
-    <option name="LAST_COMMIT_MESSAGE" value="add poetry.lock" />
+    <MESSAGE value="add poetry.lock&#10;add poetry.toml&#10;add pyproject.toml&#10;add README.md&#10;add setup.cfg&#10;add setup.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="add poetry.lock&#10;add poetry.toml&#10;add pyproject.toml&#10;add README.md&#10;add setup.cfg&#10;add setup.py" />
   </component>
 </project>
