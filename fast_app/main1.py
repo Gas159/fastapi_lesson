@@ -1,16 +1,23 @@
-from fastapi import FastAPI, Response, status, Path, Query
+from fastapi import FastAPI, Response, status, Path, Query, Body
 from fastapi.responses import (
     HTMLResponse,
     PlainTextResponse,
     FileResponse,
     JSONResponse,
+    RedirectResponse,
 )
+from fastapi.staticfiles import StaticFiles
 
 import uvicorn
+from pydantic import BaseModel
 
 # from starlette.responses import PlainTextResponse
 
 app = FastAPI()
+
+# http://0.0.0.0:8000/static/  -> index.html
+# app.mount("/static", StaticFiles(directory="html_template", html=True))
+# app.mount("/", StaticFiles(directory="public", html=True))
 
 
 # @app.get("/", response_class=HTMLResponse)
@@ -101,21 +108,73 @@ app = FastAPI()
 #     name: str = Path(min_length=3, max_length=20), age: int = Query(ge=18, lt=111)
 # ):
 #     return {"name": name, "age": age}
-@app.get("/users2/{id}", status_code=200)
-def users(response: Response, id: int = Path()):
-    if id < 1:
-        response.status_code = 400
-        return {"message": "Incorrect Data"}
-    return  {"message": f"Id = {id}", "status_code": 200}
-
-@app.get("/notfound", status_code=status.HTTP_404_NOT_FOUND)
-def notfound():
-    return {"message": "Resource Not Found"}
 
 
-@app.get("/notFound")
-async def not_found():
-    return Response(status_code=404, content="Not found1")
+# @app.get("/old")
+# def old():
+#     return RedirectResponse("/new", status_code=302)
+#
+#
+# @app.get("/new")
+# def new():
+#     return PlainTextResponse("Новая страница")
+#
+#
+# @app.get("/users2/{id}", status_code=200)
+# def users(response: Response, id: int = Path()):
+#     if id < 1:
+#         response.status_code = 400
+#         return {"message": "Incorrect Data"}
+#     return {"message": f"Id = {id}", "status_code": 200}
+#
+#
+# @app.get("/notfound", status_code=status.HTTP_404_NOT_FOUND)
+# def notfound():
+#     return {"message": "Resource Not Found"}
+# @app.get("/")
+# def root():
+#     return FileResponse("public/index.html")
+
+# @app.post("/hello")
+# def hello(name:str  = Body(embed=True, min_length=3, max_length=20),
+#             age: int = Body(embed=True, ge=18, lt=111)):
+#     return {"message": f"{name}, ваш возраст - {age}"}
+
+
+# @app.post("/hello")
+# def hello(
+#     name: str = Body(embed=True, min_length=3, max_length=100),
+#     age: int = Body(embed=True, ge=1, le=100)
+# ):  # получение отдельных данных
+#     return {"message": f"{name}, ваш возраст - {age}"}
+
+
+# @app.post("/hello")
+# # def hello(name = Body(embed=True)): # получение отдельных данных
+# def hello(data=Body()):
+#     name = data["name"]
+#     age = data["age"]
+#     return {"message": f"{name}, ваш возраст - {age}"}
+
+
+# @app.get("/notFound")
+# async def not_found():
+#     return Response(status_code=404, content="Not found1")
+
+
+class Person(BaseModel):
+    name: str
+    age: int
+
+
+@app.get("/")
+def root():
+    return FileResponse("public/index.html")
+
+
+@app.post("/hello")
+def hello(person: Person):
+    return {"message": f"{person.name}, ваш возраст - {person.age}"}
 
 
 if __name__ == "__main__":

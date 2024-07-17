@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e0e5772-58f2-4d57-9443-6ee42150fca9" name="Changes" comment="add poetry.lock&#10;add poetry.toml&#10;add pyproject.toml&#10;add README.md&#10;add setup.cfg&#10;add setup.py">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4e0e5772-58f2-4d57-9443-6ee42150fca9" name="Changes" comment="upd lesson">
+      <change afterPath="$PROJECT_DIR$/fast_app/html_template/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fast_app/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast_app/html_template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fast_app/html_template/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fast_app/main1.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast_app/main1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,9 +57,18 @@
     "Python.main1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/gas/PycharmProjects/FastAPI_lesson/fast_app/html_template",
     "settings.editor.selected.configurable": "com.jetbrains.python.black.configuration.BlackFormatterConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fast_app/html_template" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fast_app/public" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FastAPI_lesson" />
@@ -127,12 +138,21 @@
       <option name="project" value="LOCAL" />
       <updated>1721118595169</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="upd lesson">
+      <option name="closed" value="true" />
+      <created>1721231864717</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721231864717</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add poetry.lock" />
     <MESSAGE value="add poetry.lock&#10;add poetry.toml&#10;add pyproject.toml&#10;add README.md&#10;add setup.cfg&#10;add setup.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="add poetry.lock&#10;add poetry.toml&#10;add pyproject.toml&#10;add README.md&#10;add setup.cfg&#10;add setup.py" />
+    <MESSAGE value="upd lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd lesson" />
   </component>
 </project>
