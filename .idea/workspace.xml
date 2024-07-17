@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e0e5772-58f2-4d57-9443-6ee42150fca9" name="Changes" comment="upd lesson">
-      <change afterPath="$PROJECT_DIR$/fast_app/html_template/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fast_app/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast_app/html_template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fast_app/html_template/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fast_app/main1.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast_app/main1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast_app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fast_app/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721231864717</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="upd lesson">
+      <option name="closed" value="true" />
+      <created>1721236041908</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721236041908</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
