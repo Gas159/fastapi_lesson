@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e0e5772-58f2-4d57-9443-6ee42150fca9" name="Changes" comment="add poetry.lock&#10;add poetry.toml&#10;add pyproject.toml&#10;add README.md&#10;add setup.cfg&#10;add setup.py">
-      <change afterPath="$PROJECT_DIR$/fast_app/html_template/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fast_app/html_template/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fast_app/main1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/FastAPI_lesson.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FastAPI_lesson.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast_app/main1.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast_app/main1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +52,10 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "Python.main.executor": "Run",
+    "Python.main1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "com.jetbrains.python.black.configuration.BlackFormatterConfigurable"
   }
 }]]></component>
   <component name="RunManager">
@@ -121,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721118580566</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add poetry.lock&#10;add poetry.toml&#10;add pyproject.toml&#10;add README.md&#10;add setup.cfg&#10;add setup.py">
+      <option name="closed" value="true" />
+      <created>1721118595169</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721118595169</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
