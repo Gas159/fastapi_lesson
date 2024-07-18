@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e0e5772-58f2-4d57-9443-6ee42150fca9" name="Changes" comment="upd lesson">
-      <change afterPath="$PROJECT_DIR$/fast_app/lessons/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fast_app/lessons/pydantic_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fast_app/lessons/pydantic_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fast_app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast_app/main1.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast_app/main1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast_app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fast_app/public/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="4e0e5772-58f2-4d57-9443-6ee42150fca9" name="Changes" comment="upd lesson" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -243,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721295634877</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="upd lesson">
+      <option name="closed" value="true" />
+      <created>1721302739931</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721302739931</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
