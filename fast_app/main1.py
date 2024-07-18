@@ -21,16 +21,26 @@ from fastapi import FastAPI
 from fastapi.responses import FileResponse
 from pydantic import BaseModel, Field
 
+
+class Person(BaseModel):
+    name: str
+    age: Optional[int] =123
+
+
 app = FastAPI()
+
 
 @app.get("/")
 def root():
     return FileResponse("public/index.html")
 
 
-# @app.post("/hello/")
-# def hello(person: Person):
-#     return {"message": f"Привет, {person.name}, твой возраст - {person.age}"}
+@app.post("/hello")
+def hello(person: Person):
+    if person.age == None:
+        return {"message": f"Привет, {person.name}"}
+    else:
+        return {"message": f"Привет, {person.name}, твой возраст - {person.age}"}
 
 
 if __name__ == "__main__":
