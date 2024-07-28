@@ -82,7 +82,7 @@ def delete_person(id):
     # получаем пользователя по id
     person = find_person(id)
 
-    # если не найден, отправляем статусный код и сообщение об ошибке
+    # если не найден, отправляем статусный код и сообщение об ошибке1
     if person == None:
         return JSONResponse(
             status_code=status.HTTP_404_NOT_FOUND,
