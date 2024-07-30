@@ -71,7 +71,7 @@ def edit_person(data=Body()):
             status_code=status.HTTP_404_NOT_FOUND,
             content={"message": "Пользователь не найден"},
         )
-    # если пользователь найден, изменяем его данные и отправляем обратно клиенту
+    # если пользователь найден, изменяем его данные и отправляем обратно клиенту1
     person.age = data["age"]
     person.name = data["name"]
     return person
